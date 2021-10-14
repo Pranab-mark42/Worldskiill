@@ -1,0 +1,65 @@
+There are 4 mdules
+
+Module - A
+
+Infrastructure Setup and Security Hardening  ( 25.00 MARK )
+
+  • Logon and password policies
+  • Network equipment hardening
+  • Public services protection
+  • Events monitoring
+  • Firewall policy
+  
+  
+  
+ Module - B
+ 
+CyberSecurity Incident Response , Digital Forensics
+Investigation and Application Security  ( 25.00 MARK )
+
+  • Incident Response:Work Task Server Web_Server                                   5.00
+  • Incident Response:Work Task Server File_Server                                  4.00
+  • Vulnerability Detection and Repair: Work Task Server Web_Server                 1.50
+  • Vulnerability Detection and Repair: Work Task Server File_Server                1.50
+  • Digital Forensic Investigation: Work Task Server LinuxM_Svr                     2.00
+  • Digital Forensic Investigation: Work Task Win.img, mem.dump                     2.00
+  • Digital Forensic Investigation: Work Task Network Analysis , Network.pcap       2.50
+  • Digital Forensic Investigation: Work Task Test.pdf, system.img                  2.00
+  • Code Review: Work Task Code Review 1                                            1.50
+  • Code Review: Work Task Code Review 2                                            1.50
+  • Code Review: Work Task Code Review 3                                            1.50
+ 
+ 
+ 
+ Module - C
+ 
+Capture The Flag (Attack)  ( 25.00 MARK )
+
+  • Enumeration                3.50
+  • Web Based Attacks          3.50
+  • Database Attacks           3.50
+  • Windows Attacks            3.50
+  • Root Access                3.50
+  • Cryptography               3.50
+  • Steganography              4.00
+
+
+
+ Module - D
+ 
+ Capture The Flag (Defence)  ( 25.00 MARK )
+
+  • Reconnaisance and Application Detection          3.50
+  • Malicious URL                                    3.50
+  • Exploits, Drive by download malware              3.50
+  • Botnet                                           3.50
+  • Data Leakage                                     3.50
+  • Reverse Engineering                              3.50
+  • Forensic                                         4.00
+  
+  
+  
+ ############################################################################################################################################################################### 
+  
+  
+  
