@@ -4,11 +4,11 @@ Module - A
 
 Infrastructure Setup and Security Hardening  ( 25.00 MARK )
 
-  • Logon and password policies
-  • Network equipment hardening
-  • Public services protection
-  • Events monitoring
-  • Firewall policy
+  • Logon and password policies           5.75
+  • Network equipment hardening           4.25
+  • Public services protection            2.75
+  • Events monitoring                     6.75
+  • Firewall policy                       5.50
   
   
   
