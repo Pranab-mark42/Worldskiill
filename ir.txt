@@ -1,0 +1,24 @@
+1.first check history
+    history
+
+2.check the password file for who can login except root
+  cat /etc/passwd
+  
+3.check the ssh auth.
+    cd /root/.ssh
+    cat authorised_key
+    
+4.check the tmp folder
+    cd /tmp
+    ls -la
+    
+5.run netstat command and find the suspicious things
+    netstat -ano -p tcp
+    
+6. to see all process
+     ps -a 
+     ps -d
+     ps -aux
+     
+7.
+    ss -tlpn
