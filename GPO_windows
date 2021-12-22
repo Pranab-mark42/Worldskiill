@@ -1,0 +1,71 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                                                                             GROUP POLICY OBJECT (GPO)
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Run the run command - win + R
+Type - gpedit.msc ( for windows client ) 
+And 
+					gpmc.msc ( for windows server )
+
+Or search for - group policy object 
+
+
+#################################################################################################################################################################################
+                                                                                Password policy  
+#################################################################################################################################################################################
+Path  - To configure the AD account password policy, open the Group Policy Management console (gpmc.msc). Expand your domain and find the GPO named Default Domain Policy. Right-click it and select Edit
+
+Path - Computer Configuration > Windows Setting >  Security Security > account Setting > Password Policy
+
+• Minimum password length: 8 characters 
+• Maximum password length: 64 characters 
+• Minimum password age: 1 day 
+• Maximum password age: 90 days 
+• Complexity requirements: Enabled 
+• Store passwords using reversible encryption: Disabled 
+
+
+#################################################################################################################################################################################
+                                                                              Lockout policy 
+#################################################################################################################################################################################
+Path - Computer Configuration > Windows Setting >  Security Security > account Setting > Lockout Policy
+
+• Account lockout duration: 15 minutes 
+• Account lockout threshold: 10 failed authentication attempts 
+• Reset counter after: 15 minutes 
+
+
+#################################################################################################################################################################################
+                                                                             AUDIT POLICIES
+#################################################################################################################################################################################
+Path - Computer Configuration > Windows Setting >Security Policy > advanced audit policy conf.->system audit policy  >set according to the requirements
+
+
+#################################################################################################################################################################################	
+                                                                              USB DISABLE
+#################################################################################################################################################################################
+Path -  computer configuration > administrative templates > system > removable storage
+
+
+#################################################################################################################################################################################
+                                                                      DISABLE NET BIOS OVER TCP/IP
+#################################################################################################################################################################################
+Path - control panel > Network and Internert > Network  and sharing center > change adapter setting > ethernet >properties > tcp/ip IPv4 > advance > wins > select disable
+ 
+ 
+ 
+################################################################################################################################################################################# 
+                                                                        USER ACCOUNT CONTROL
+#################################################################################################################################################################################
+• Admin Approval Mode for the built-in Administrator account: Enabled 
+• Run all administrators in Admin Approval Mode: Enabled 
+
+
+#################################################################################################################################################################################
+                                                                            Interactive logon
+################################################################################################################################################################################# 
+Path -  win + R > gpmc.msc > group policy management > domain > Interactive logon > edit >
+
+Path - Computer Configuration > Windows Settings > Security Settings > Local Policies > Security Options > interactive logon
+• Machine inactivity limit: 900 seconds 
+• Prompt user to change password before expiration: 14 days 
+• Do not require CTRL+ALT+DEL: Disabled 
